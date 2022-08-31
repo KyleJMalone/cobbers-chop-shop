@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="StyleSheet" href="merchfun.css">
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+              <div class="dropdown-content">
+                <a href="/index.html">Home</a>
+                <a href="/Merch/merch.html">Merch</a>
+                <a href="/Repairs/Repairs.html">Repairs</a>
+                <a href="/Reviews/Reviews.html">Reviews</a>
+                <a href="/about/about.html">About</a>
+              </div>
+        <h1>MeRcH</h1>
+        
+        <form name="Bikes">
+            <fieldset>
+                <label>Item:<input type="text" name="data"></label>
+                <label>Quantity: <input type="text" name="data"></label>
+                <input type="button" value="Save"   onclick="SaveItem()">
+                <input type="button" value="Update" onclick="ModifyItem()">
+                <input type="button" value="Delete" onclick="RemoveItem()">
+                <label for="name bike">Type of Bike</label>
+                <select name="type-of-bike" id="bike">
+                    <option value="road">Road</option>
+                    <option value="Mountian">Mountian</option>
+                    <option value="Touring Bike">Touring Bike</option>
+                    <option value="Folding Bike">Folding Bike</option>
+                    <option value="Fixed Gear/Track Bike">Fixed Gear/Track Bike</option>
+                    <option value="BMX">BMX</option>
+                    <option value="Recumbent Bike">Recumbent Bike</option>
+                    <option value="Cruiser">Cruiser</option>
+                    <option value="e-bike">E-Bike</option>
+            </fieldset>
+            <div id="items_table">
+                <h2>BiKeS</h2>
+                <table id="list"></table>
+                <label><input type="button" value="Clear" onclick="ClearAll()">
+                * Delete all items</label>
+                <div class="card">
+                    <h1>Road Bikes</h1>
+                   <img src="/imgs/Road Bike.jpg" alt="Red Bike">
+                    <p class="price">$1,500</p>
+                    <p>Endurance Racing Bike</p>
+                    <p><button>Add to Cart</button></p>
+                  </div>
+                  <div class="card">
+                    <img src="/imgs/Road Bikes.jpg" alt="Black Bike">
+                     <p class="price">$11,500</p>
+                     <p>Premium Racing Bike</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <h1>Mountain Bikes</h1>
+                   <div class="card">
+                    <img src="/imgs/Mountain Bike.jpg" alt="White Bike">
+                     <p class="price">$16,000</p>
+                     <p>Amazing Mountain Bike</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <div class="card">
+                    <img src="/imgs/Mountain Bikes.jpg" alt="Teal Bike">
+                     <p class="price">$2,000</p>
+                     <p>Mega Cool Mountain Bike</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <div class="card">
+                    <img src="/imgs/Tourist Bike.jpg" alt="Off white? Bike">
+                     <p class="price">$12,000</p>
+                     <p>I can show you the world...Touring Bike</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <div class="card">
+                    <h1>Folding Bikes</h1>
+                    <img src="/imgs/Folding bike.jpg" alt="Blue Bike">
+                     <p class="price">$15,500</p>
+                     <p>My bike don't jiggle jiggle it folds Folding Bike</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <div class="card">
+                    <img src="/imgs/Fold bike.jpg" alt="Green Bike">
+                     <p class="price">$11,000</p>
+                     <p>Texas Foldem Folding Bike</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <div class="card">
+                    <h1>Fixed Gear</h1>
+                    <img src="/imgs/Fixed Gear.jpg" alt="Black Bike">
+                     <p class="price">$1,000</p>
+                     <p>Face Your Gears</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <div class="card">
+                    <img src="/imgs/Fix Gear.jpg" alt="how to spell beige? Bike">
+                     <p class="price">$500</p>
+                     <p>Fixer Upper</p>
+                     <p><button>Add to Cart</button></p>
+                   </div>
+                   <section><img src="https://media4.giphy.com/media/3orieNatvDIqsoD5DO/giphy.gif?cid=790b7611633aa26f4aada2d66412c4a40e763bca8dfde8f9&rid=giphy.gif&ct=g" height="500" width="1000"></section>
+
+
+
+                   <p> link to normal site
+                    <a href="/index.html"> here</a>
+    </body>
+</html>

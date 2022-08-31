@@ -1,0 +1,65 @@
+body{
+    background-image: url(https://media2.giphy.com/media/gU25raLP4pUu4/200.webp?cid=ecf05e47ngrf2hpzhae3rzccd1fzostu7n173u54vv27uask&rid=200.webp&ct=g);
+}
+
+h1{
+    color: fuchsia;
+}
+h1:hover{
+    color: coral;
+}
+
+h3{
+    color: fuchsia;
+}
+h3:hover{
+    color: coral;
+}
+
+h2{
+    border-color: crimson;
+    color: aqua;
+}
+h2:hover{
+    color: coral;
+}
+
+.exit {
+    border: ridge limegreen 10px;
+}
+
+p{
+    font-family: 'Jacques Francois Shadow', cursive;
+    color: hotpink;
+    font-size: 30px;
+}
+
+p:hover{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.bigwheel:hover{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.bikewreck:hover{
+    animation: shake 0.6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
